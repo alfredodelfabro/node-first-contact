@@ -29,3 +29,24 @@ To use ES modules we need to add `"type": "module"` on our package.json configur
 
 `import { getUser } from './userController';`
 
+## Use nodemon on development
+
+nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected -- <cite>[nodemon documentation][2]</cite>.
+
+[2]: https://github.com/remy/nodemon
+
+To use nodemon we need to run `npm install -D nodemon`. The `-D` flag is used to install only on development environment. See:
+
+```
+"devDependencies": {
+  "nodemon": "^3.1.0"
+}
+```
+
+We also need to change our package.json to indicates that we want to use nodemon to start the server:
+
+```
+"scripts": {
+  "test": "nodemon server.js"
+},
+```
