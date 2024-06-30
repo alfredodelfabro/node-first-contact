@@ -62,5 +62,11 @@ This file is used to put some environment variables so you don't expose things l
 You just need to create the `.env` file and change the start script on package.json to use it:
 
 ```
-
+"scripts": {
+  "start": "nodemon --env-file=.env server.js"
+},
 ```
+
+## Tutorial by Traversy Media
+
+Link: https://www.youtube.com/watch?v=32M1al-Y6Ag.
