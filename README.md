@@ -47,10 +47,20 @@ We also need to change our package.json to indicates that we want to use nodemon
 
 ```
 "scripts": {
-  "test": "nodemon server.js"
+  "start": "nodemon server.js"
 },
 ```
 
 ## How to start our application?
 
 Just run `npm start`. Since we are using nodemon, we don´t need to reload the server every time we change a file.
+
+## The use of .env file
+
+This file is used to put some environment variables so you don't expose things like API keys and sensitive information on source code. This comes by default on recent versions of nodejs.
+
+You just need to create the `.env` file and change the start script on package.json to use it:
+
+```
+
+```
