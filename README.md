@@ -18,3 +18,14 @@ As a Ruby and Ruby on Rails developer, I was used to install and manage Ruby ver
 NPM stands for Node Package Manager and it is used to manage libs and frameworks used by an application.
 
 When a project is created using npm, a file named package.json is created that has all the packages used on the environment. Besides that, npm is a repository where other developers and companies distribute theis tools and libs that abstract a lot of code. It is something like gems in Ruby.
+
+## Start a new application
+
+We start a new application by typing `npm init`. This command creates a new `package.json` file to manage application.
+
+## Using ES modules
+
+To use ES modules we need to add `"type": "module"` on our package.json configuration. This allow us to use this syntax, for example, import from other files:
+
+`import { getUser } from './userController';`
+
