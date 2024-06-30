@@ -2,7 +2,7 @@
   "name": "node-first-contact",
   "version": "1.0.0",
   "description": "Node.js learning app",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/alfredodelfabro/node-first-contact/issues"
   },
-  "homepage": "https://github.com/alfredodelfabro/node-first-contact#readme"
+  "homepage": "https://github.com/alfredodelfabro/node-first-contact#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
