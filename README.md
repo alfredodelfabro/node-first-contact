@@ -50,3 +50,7 @@ We also need to change our package.json to indicates that we want to use nodemon
   "test": "nodemon server.js"
 },
 ```
+
+## How to start our application?
+
+Just run `npm start`. Since we are using nodemon, we don´t need to reload the server every time we change a file.
