@@ -1,8 +1,9 @@
 # node-first-contact
-Study the very basic about NodeJS to create an API.
-
+This example API was created to study the very basic about Node.js. The tutorial was made by Traversy Media -- <cite>[Traversy Media - Node.js Crash Course (2024 Revamp)][3]</cite>.
 
 # What I learned
+
+In the next sessions I point it out what I've learned making the tutorial.
 
 ## Volta
 
@@ -69,4 +70,6 @@ You just need to create the `.env` file and change the start script on package.j
 
 ## Tutorial by Traversy Media
 
-Link: https://www.youtube.com/watch?v=32M1al-Y6Ag.
+<cite>[Traversy Media YT Channel][3]</cite>.
+
+[3]: https://github.com/remy/nodemon
